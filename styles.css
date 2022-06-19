@@ -1,0 +1,113 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.topline {
+    border: 2px solid hotpink;
+    display: flex;
+    margin-bottom: auto;
+    margin-top: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    
+    
+}
+
+ul {
+    border: 2px solid blue;
+    display:flex;
+    gap:50px;
+    list-style-type: none;
+    margin-top: auto;
+    color: #f5f8ffad;
+    font-size: 18px;
+
+}
+
+.hlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.topsection {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.placeholder {
+    color: white;
+    background-color: grey;
+    padding:20px;
+    text-align: center;
+    width:900px;
+    height:200px;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+    display:flex
+    
+    
+}
+
+.leftsidetop {
+    display:flex;
+    flex-direction: column;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0;
+    width: 400px;
+}
+
+.secondarytext {
+    color: #f5f8ffad;
+    font-size: 18px;
+    width:400px;
+    margin-bottom:10px
+}
+
+.signup {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: #3882f6;
+    color: white;
+    width:80px;
+    height: 25px;
+    
+
+}
+
+.leftsidetop {
+    border: 2px solid orangered;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+
+.leftrighttop {
+    border:2px solid purple;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+/* THE NEXT PART IS THE SECOND WHITE BIT. TOP BIT WORKS! ! ! ! ! ! */
+
+.secondsection {
+    border: 5px dashed pink
+}
+
+
+
