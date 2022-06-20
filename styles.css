@@ -73,7 +73,7 @@ ul {
 .secondarytext {
     color: #f5f8ffad;
     font-size: 18px;
-    width:400px;
+    width:450px;
     margin-bottom:10px
 }
 
@@ -82,8 +82,9 @@ ul {
     border-radius: 5px;
     border: #3882f6;
     color: white;
-    width:80px;
+    width:120px;
     height: 25px;
+    font-size: 15px;
     
 
 }
@@ -94,6 +95,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 100px;
+    
 }
 
 .leftrighttop {
@@ -101,13 +103,54 @@ ul {
     display: flex;
     justify-content: space-between;
     gap:10px;
+    margin-bottom: 120px;
 }
 
 /* THE NEXT PART IS THE SECOND WHITE BIT. TOP BIT WORKS! ! ! ! ! ! */
 
 .secondsection {
-    border: 5px dashed pink
+    border: 5px dashed pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
+.secondsectionheader {
+    border: 5px solid brown;
+    margin-top: 30px;
+}
 
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    margin-top: 40px;
+    
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:50px
+}
+
+.squaretext {
+    max-width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    color: #6b6d6dc7;
+    margin-bottom: 164px;
+
+}
+
+/* THE SECOND SECTION IS DONE !!! ! ! ! The first and second section are equal size*/
+
+.thirdsection {
+    background-color: #e5e7eb;
+}
