@@ -38,6 +38,7 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    height: 529px
     
 }
 
@@ -186,15 +187,57 @@ ul {
 /* THIRD SECTION DONE. THIS IS FOURTH NOW !!!!! */
 
 .fourthsection {
-    border: 2px dashed hotpink;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    height:529px
 }
 
 .actionbox {
     
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:200px
 }
+
+.signup2 {
+    background-color: #2f74e2ed;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    width:120px;
+    height: 25px;
+    font-size: 15px;
+    
+
+}
+
+.actionboxtexttop {
+    color: white;
+    font-size: larger;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.actionboxtextbottom {
+    color: #f5f8ffad;
+}
+
+
+/* FOURTH BIT DONE. NOW JUST HEADER! */
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f8ffad;;
+}
+
