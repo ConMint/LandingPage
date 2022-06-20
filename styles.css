@@ -4,7 +4,7 @@
 
 
 .topline {
-    border: 2px solid hotpink;
+    
     display: flex;
     margin-bottom: auto;
     margin-top: auto;
@@ -18,7 +18,7 @@
 }
 
 ul {
-    border: 2px solid blue;
+    
     display:flex;
     gap:50px;
     list-style-type: none;
@@ -34,10 +34,11 @@ ul {
 }
 
 .topsection {
-    border: 5px solid black;
+    
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    
 }
 
 .placeholder {
@@ -90,7 +91,7 @@ ul {
 }
 
 .leftsidetop {
-    border: 2px solid orangered;
+    
     display:flex;
     flex-direction: column;
     align-items: flex-start;
@@ -99,7 +100,7 @@ ul {
 }
 
 .leftrighttop {
-    border:2px solid purple;
+    
     display: flex;
     justify-content: space-between;
     gap:10px;
@@ -109,7 +110,7 @@ ul {
 /* THE NEXT PART IS THE SECOND WHITE BIT. TOP BIT WORKS! ! ! ! ! ! */
 
 .secondsection {
-    border: 5px dashed pink;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,8 +119,11 @@ ul {
 
 
 .secondsectionheader {
-    border: 5px solid brown;
+    
     margin-top: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937
 }
 
 
@@ -153,4 +157,44 @@ ul {
 
 .thirdsection {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    
+    max-width: 825px;
+    margin-top: 200px;
+    
+}
+
+.quoteauthor {
+    
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 530px;
+    padding-bottom: 208px;
+    
+}
+
+/* THIRD SECTION DONE. THIS IS FOURTH NOW !!!!! */
+
+.fourthsection {
+    border: 2px dashed hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionbox {
+    
+    width: 100px;
+    height: 100px;
+    background-color: blue;
 }
